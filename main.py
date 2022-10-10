@@ -1,5 +1,8 @@
 # coding=utf-8
 import socket
+import nmap
 web = input("enter url: ")
-print('The socket info / ip adres of', web, 'is:''\n')
-print(socket.gethostbyname("www." + web,))
+
+webadress = (socket.gethostbyname("www." + web,))
+
+print('\n' + webadress, '\n' )

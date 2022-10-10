@@ -202,6 +202,14 @@ optional = false
 python-versions = ">=3.7"
 
 [[package]]
+name = "nmap"
+version = "0.0.1"
+description = "Map numbers from one range to another"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "numpy"
 version = "1.23.3"
 description = "NumPy is the fundamental package for array computing with Python."
@@ -478,7 +486,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytest-
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "f328c469a46d9cb95c79b10c69318f07ccca3f40cc6eb43ef51c87ad2ff1879b"
+content-hash = "e8800384e6a6b0f3ec79fdea6ae79b5bc4d04d45bf8f2ec75568d43b5495305a"
 
 [metadata.files]
 aiohttp = []
@@ -499,6 +507,7 @@ jedi = []
 jinja2 = []
 markupsafe = []
 multidict = []
+nmap = []
 numpy = []
 packaging = []
 parso = []
